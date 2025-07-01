@@ -4,22 +4,22 @@ h1,
 h2,
 h3 {
     font-family: $font-family-heading;
-    line-height: $line-height-heading;
+    line-height: $line-height-normal;
 }
 
 h1 {
-    font-size: $font-size-xxl;
+    font-size: $h1-size;
 }
 
 h2 {
-    font-size: $font-size-xl;
+    font-size: $h2-size;
 }
 
 h3 {
-    font-size: $font-size-lg;
+    font-size: $h3-size;
 }
 
 p {
-    font-size: $font-size-base;
+    font-size: $body-size;
     margin-bottom: $spacing-md;
 }
