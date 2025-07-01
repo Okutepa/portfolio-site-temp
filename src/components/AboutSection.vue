@@ -1,9 +1,16 @@
 <template>
     <section class="about-section" id="about">
-            <div class="about-heading">
-                <h2>About</h2>
-                <div class="divisor"></div>
+        <div class="grid-con">
+            <div class="col-span-full">
+                <div class="about-heading">
+                    <h2>About</h2>
+                    <div class="divisor"></div>
+                </div>
             </div>
+        </div>
+            
+
+            
             <div class="about-content">
                 <div class="left-content">
                     <h3>

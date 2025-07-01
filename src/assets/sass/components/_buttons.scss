@@ -1,0 +1,27 @@
+@use '../abstracts' as *;
+
+.btn {
+    display: flex;
+    gap: 0.5rem;
+    padding: 0.75rem 1rem;
+    border-radius: 2rem;
+    align-items: center;
+    justify-content: center;
+    background-color: $primary-color;
+    font-size: $body-size;
+    font-family: $font-family-base;
+    font-weight: $weight-regular;
+    line-height: 100%;
+    width: 50%;
+}
+
+.btn-hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $primary-color;
+    color: $secondary-color;
+    font-size: $body-size;
+    font-weight: $weight-regular;
+    line-height: 100%;
+}

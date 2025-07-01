@@ -1,0 +1,14 @@
+@use '../abstracts' as *;
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 32px 0 72px 0;
+
+    .hero-text {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+}

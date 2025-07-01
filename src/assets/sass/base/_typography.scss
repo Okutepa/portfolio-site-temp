@@ -1,25 +1,46 @@
 @use '../abstracts' as *;
 
-h1,
-h2,
-h3 {
+//headings
+.heading-h1 {
+    font-size: $h1-size;
     font-family: $font-family-heading;
+    font-weight: $weight-regular;
     line-height: $line-height-normal;
 }
 
-h1 {
-    font-size: $h1-size;
-}
-
-h2 {
+.heading-h2 {
     font-size: $h2-size;
+    font-family: $font-family-heading;
+    font-weight: $weight-regular;
+    line-height: $line-height-normal;
 }
 
-h3 {
+.heading-h3 {
     font-size: $h3-size;
+    font-family: $font-family-heading;
+    font-weight: $weight-regular;
+    line-height: $line-height-normal;
 }
 
-p {
+.heading-h4 {
+    font-size: $h4-size;
+    font-family: $font-family-heading;
+    font-weight: $weight-regular;
+    line-height: $line-height-normal;
+}
+
+.body-text {
     font-size: $body-size;
-    margin-bottom: $spacing-md;
+    font-weight: $weight-regular;
+    line-height: $line-height-body;
+}
+
+.body-text-light {
+    font-size: $body-size-light;
+    font-weight: $weight-light;
+    line-height: $line-height-body-light;
+}
+
+.body-text-bold {
+    font-weight: $weight-bold;
 }
