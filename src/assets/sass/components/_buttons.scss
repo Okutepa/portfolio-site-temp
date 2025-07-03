@@ -25,3 +25,26 @@
     font-weight: $weight-regular;
     line-height: 100%;
 }
+
+.about-btns {
+    display: flex;
+    flex-direction: column;
+
+    .about-btns-inner {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    .about-btn {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        color: $primary-color;
+
+        svg {
+            width: 1.25rem;
+            height: 1.25rem;
+        }
+    }
+}

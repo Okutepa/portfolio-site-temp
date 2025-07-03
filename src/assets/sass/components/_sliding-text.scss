@@ -1,0 +1,21 @@
+@use '../abstracts' as *;
+
+
+.about-slide-text {
+    margin-top: 9.6rem;
+
+    .slide-track {
+        display: flex;
+        overflow: hidden;
+
+        .sliding-text {
+            display: flex;
+            white-space: nowrap;
+            font-size: 4.5rem;
+            font-family: $font-family-base;
+            font-weight: $weight-regular;
+            line-height: 100%;
+            color: $primary-color;
+        }
+    }
+}
