@@ -1,0 +1,53 @@
+@use '../abstracts' as *;
+
+.projects-heading {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+.showcase-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-bottom: 112px;
+
+    .showcase-image {
+        display: flex;
+        flex-direction: column;
+        gap: 0.8rem;
+        width: 100%;
+        max-width: 642px;
+        max-height: 572px;
+        object-fit: cover;
+        border-radius: 8px;
+
+        img {
+            padding: 2rem;
+            background-color: $primary-color;
+            border-radius: 1rem;
+        }
+    }
+
+    .showcase-text {
+        width: 100%;
+        max-width: 400px;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        ;
+    }
+
+    .reverse & {
+        flex-direction: row-reverse;
+    }
+
+    .showcase-description {
+        p {
+            margin-bottom: 1rem;
+        }
+    }
+}
