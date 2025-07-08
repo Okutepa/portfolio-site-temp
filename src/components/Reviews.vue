@@ -1,5 +1,6 @@
 <template>
-     <section class="reviews">
+     <section class="reviews" id="reviews">
+        <div class="grid-con">
             <div class="review-heading">
                 <h2>What Clients Say</h2>
                 <div class="divisor">
@@ -54,6 +55,9 @@
 
                 </div>
             </div>
+
+        </div>
+            
         </section>
 </template>
 
