@@ -1,13 +1,13 @@
 <template>
      <section class="reviews" id="reviews">
         <div class="grid-con">
-            <div class="review-heading">
+            <div class="review-heading col-span-full">
                 <h2>What Clients Say</h2>
                 <div class="divisor">
                 </div>
             </div>
-            <div class="review-con">
-                <div class="review-card">
+            <div class="review-con col-span-full">
+                <div class="review-card" v-for="review in reviews" :key="review.id">
                     <div class="card-img">
                         <img src="" alt="">
 
@@ -62,7 +62,15 @@
 </template>
 
 <script>
+
+import { reviewData } from '../data/reviewsData.js'
+
 export default {
-  name: 'Reviews'
+  name: 'Reviews',
+  data() {
+    return {
+      reviews: reviewData
+    }
+  }
 }
 </script>
