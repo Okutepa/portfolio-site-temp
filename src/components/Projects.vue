@@ -5,10 +5,11 @@
                     <div class="projects-heading">
                         <h2 class="heading-h2">Featured Works</h2>
                         <div class="divisor"></div>
-                     </div>
+                    </div>
+                
 
 
-                <!-- dynamic projects -->
+                    <!-- dynamic projects -->
 
                 <div class="showcase col-span-full" v-for="(project, index) in projects" :key="project.id" :class="{ 'reverse': index % 2 !== 0 }">
                     <div class="showcase-item">
