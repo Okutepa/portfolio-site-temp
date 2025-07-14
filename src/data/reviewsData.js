@@ -33,5 +33,19 @@ export const reviewData = [
         role: "Content Strategist",
         quote: "Wisdom's ability to craft compelling narratives and his deep understanding of content strategy made a significant difference in our project outcomes.",
         image: "/images/review-img-holder.png"
-    }
+    },
+    {
+        id: 6,
+        name: "David F",
+        role: "Data Analyst",
+        quote: "Working with Wisdom was a game-changer. His analytical skills and data-driven approach provided us with insights that were crucial for our decision-making process.",
+        image: "/images/review-img-holder.png"
+    },
+    {        
+        id: 7,
+        name: "Laura G",
+        role: "Software Engineer",
+        quote: "Wisdom's technical expertise and problem-solving abilities were instrumental in overcoming the challenges we faced during the project. His contributions were key to our success.",
+        image: "/images/review-img-holder.png"
+    },
 ]

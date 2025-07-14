@@ -20,6 +20,7 @@
     }
 
     .review-card {
+        position: relative;
         flex: 0 0 auto;
         padding: 0.75rem 1rem;
         border-radius: 8px;
@@ -36,6 +37,57 @@
             justify-content: space-between;
             align-items: center;
             color: $secondary-color;
+        }
+
+        .card-review-overlay {
+            position: absolute;
+            inset: 0;
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: inherit;
+            text-align: center;
+            opacity: 0;
+            transition: 0.3s ease opacity;
+
+            &:hover {
+                opacity: 1;
+                pointer-events: auto;
+            }
+
+            p {
+                position: relative;
+                top: 70%;
+            }
+        }
+
+
+
+        .card-text {
+            z-index: 1; // ensures it's under the overlay
+        }
+    }
+
+
+}
+
+.pagination-controls {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+
+    button {
+        padding: 0.5rem 1rem;
+        background-color: $primary-color;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+
+        &:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
         }
     }
 }
